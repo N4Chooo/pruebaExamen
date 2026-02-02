@@ -55,8 +55,6 @@ jobs:
           
           rsync -avz --delete --no-t --exclude 'tests' --exclude '.git' . $USERNAME@$HOST:$DEPLOY_PATH
           
-          ssh -o StrictHostKeyChecking=no $USERNAME@$HOST
-           "cd $DEPLOY_PATH && composer install --no-dev --optimize-autoloader"
+          "cd $DEPLOY_PATH && composer install --no-dev --optimize-autoloader"
           
-          ssh -o StrictHostKeyChecking=no $USERNAME@$HOST 
           "sudo systemctl restart apache2"
