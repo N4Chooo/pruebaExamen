@@ -7,7 +7,7 @@ class TaskManager
 
     public function __construct()
     {
-        $this->tareas = [
+        $this->tareas = [ 
             [
                 'id' => 1,
                 'titulo' => 'Revisar código',
