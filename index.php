@@ -39,7 +39,7 @@ $tareasPendientes = $manager->filtrarPorEstado('pendiente');
             display: flex;
             gap: 20px;
             margin: 20px 0;
-        }
+        } 
         .stat-box {
             background: #007bff;
             color: white;
