@@ -1,0 +1,3 @@
+FROM php:8.2-apache
+# Instala y habilita la extensión mysqli
+COPY . /var/www/html/ex_app
