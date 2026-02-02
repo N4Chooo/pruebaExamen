@@ -21,7 +21,7 @@ $tareasPendientes = $manager->filtrarPorEstado('pendiente');
             font-family: Arial, sans-serif;
             max-width: 800px;
             margin: 50px auto;
-            padding: 20px; 
+            padding: 20px;  
             background-color: #f5f5f5;
         }
         .container {
